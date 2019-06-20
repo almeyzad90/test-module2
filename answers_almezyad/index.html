@@ -5,64 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test!</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-
-        /* default style for test */
-
-        header {
-            background-color: white;
-        }
-
-        li {
-            margin-bottom: 10px;
-        }
-
-        span {
-            width: 95%;
-           padding: .5rem;
-            border: 1px solid black;
-            margin: .5rem;
-            display: inline-block;
-        }
-              
-        .container {
-            border: 2px solid black;
-        }
-
-        .item {
-            border: 2px solid blue;
-            height: 10rem;
-            width: 10rem;
-            margin: 1rem;  
-        }
-
-        .mediaquery {
-            border: 2px solid black;
-        }
-
-        .box {
-            border: 2px solid black;
-            height: 20rem;
-            width: 20rem;
-        }
-        
-        .relative, .absolute {
-            border: 2px solid blue;
-        }
-
-        .relative {
-            height: 10rem;
-            width: 10rem;
-        }
-
-        .absolute {
-            height: 5rem;
-            width: 5rem;
-        }
-
-
-    </style>
+    
 </head>
 <body>
 
@@ -73,13 +18,13 @@
     </header>
 
     <main>
-        <h3>Tasks</h3>
+        <h3 class="first-headding">Tasks</h3>
         <ol>
             <li>Make and link a CSS stylesheet and work from there.</li>
             <li>Align the text in the header to the center of the page.</li>
             <li>Change the color of THIS list item to blue.</li>
             <li>Images Task</li>
-                <ul>
+                <ul class="blau">
                     <li>Find the images section in the HTML file.</li>
                     <li>Find the div with the class of "background" and select it by its class name in CSS.</li>
                     <li>Give the div a width and height.</li>
@@ -143,13 +88,13 @@
     <section class="images">
         <h3>Images Section</h3>        
         <div class="background"></div>
-        <img height="200" src="images/mountain.jpg" alt="Image 2">
-        <img height="200" src="images/surfer.jpg" alt="Image 3">
+        <img class="column" height="500" width="300" src="images/mountain.jpg" alt="Image 2">
+        <img  height="500" width="300" src="images/surfer.jpg" alt="Image 3">
     </section>
 
 <!-- Span -->
-<h3>nth-child()</h3>
-<div>
+<h3 class="span">nth-child()</h3>
+<div class="span">
     <span>1</span>
     <span>2</span>
     <span>3</span>

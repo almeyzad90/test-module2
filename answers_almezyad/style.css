@@ -1,0 +1,157 @@
+html,body {margin: 0%}
+
+
+
+
+header {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+.blau {color: blue}
+
+.first-headding {margin-top:150px }
+
+
+.background {
+    background-image: url(../test/images/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+    width: 50%;
+    background-size: 100% 100%;
+    float: left;
+	
+ }
+
+ img{
+    display:inline;
+
+}
+
+
+ .column {border: solid}
+
+
+
+ span:nth-child(even) {
+    background: red;
+    
+  }
+  span:nth-child(2n+1) {
+    background: blue;
+    
+  }
+
+
+  
+  
+
+
+span {
+    width: 95%;
+   padding: .5rem;
+    border: 1px solid black;
+    margin: .5rem;
+    display: inline-block;
+}
+      
+
+   
+
+.container {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black; 
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+  }
+  
+  .container div {
+     -webkit-flex: 1; /* Safari 6.1+ */
+     flex: 1;
+  }
+  
+
+.item {
+    border: 2px solid blue;
+    height: 10rem;
+    width: 10rem;
+    margin: 1rem;  
+}
+
+.mediaquery {
+    border: 2px solid black;
+   
+    width: 50%;
+    height: 50px;
+    margin-top: 0
+}
+/* responcive*/
+
+@media only screen and (max-width: 360px) {
+    .mediaquery {
+      background-color: lightblue;
+      height: 5rem;
+      width: 5rem;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .mediaquery {
+      background-color: rgb(199, 61, 103);
+      height: 7rem;
+      width: 7rem;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .mediaquery {
+      background-color: rgb(71, 8, 80);
+      height: 10rem;
+      width: 10rem;
+    }
+  }
+  @media only screen and (min-width: 1440px) {
+    .mediaquery {
+      background-color: rgb(3, 18, 24);
+      height: 12rem;
+      width: 12rem;
+    }
+  }
+
+.box {
+    border: 2px solid black;
+    height: 20rem;
+    width: 20rem;
+}
+
+.relative, .absolute {
+    border: 2px solid blue;
+}
+
+.relative {
+    height: 10rem;
+    width: 10rem;
+  
+}
+.box .relative {
+    position: relative;
+    margin-left: 155px}
+
+.absolute {
+    height: 5rem;
+    width: 5rem;
+}
+.box .absolute{
+    position: absolute;
+    margin-top: 60px;
+
+
